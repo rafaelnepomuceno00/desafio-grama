@@ -81,7 +81,7 @@ nav {
 .vertical-p {
     margin-left: -4.5rem;
     position: fixed;
-    margin-top: 25%;
+    margin-top: 30%;
     font-size: 1.4rem;
     transform: rotate(-90deg);
 }
@@ -120,7 +120,16 @@ nav {
     right: 0;
     z-index: -1;
 }
-
+@media(max-width:815px){
+    .image-div-1 img {
+        display: none;
+    }
+    #section-1{
+        background-image: url(assets/camille-couvez-H5PnIYI_1I0-unsplash\ 1.png) ;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
 /* section 2 */
 
 .container-section-2 {
