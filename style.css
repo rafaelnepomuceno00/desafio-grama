@@ -127,7 +127,7 @@ nav {
     #section-1{
         background-image: url(assets/camille-couvez-H5PnIYI_1I0-unsplash\ 1.png) ;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
     }
 }
 /* section 2 */
